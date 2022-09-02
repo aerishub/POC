@@ -1,0 +1,107 @@
+.titleWithBtn {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.titleWithBtn h2 {
+  margin-bottom: 0px;
+}
+
+.titleWithBtn .btnSecondary {
+  padding: 10px;
+}
+
+.fldWrap label.nonFloatingLbl {
+  position: relative;
+  left: 0;
+  margin-bottom: 10px;
+  font-size: 0.75rem;
+  color: var(--ah-color-1);
+  font-weight: 500;
+  transform: none;
+  display: block;
+}
+
+.disFlex {
+  display: flex;
+  justify-content: space-between;
+}
+
+th.actionsTH {
+  width: 150px;
+  min-width: 150px;
+}
+
+.productListCol {
+  padding: 20px;
+  flex: 50% 1;
+  max-width: 50%;
+}
+
+.tableLoader {
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  bottom: 0;
+  right: 0;
+  background: rgba(255, 255, 255, 0.1);
+  z-index: 9999;
+  display: none;
+  width: 100px;
+  height: 100px;
+}
+
+.tableLoader.active {
+  display: block;
+}
+
+.loadAnimationCustom {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  margin: -45px 0 0 -45px;
+  top: 75%;
+  left: 50%;
+  animation: rotate 1.5s infinite linear both;
+  transform: translate(-50%, -50%);
+}
+
+.prodDtlsCol {
+  padding: 0px 10px 10px;
+  max-width: 33.33%;
+  min-width: 33.33%;
+}
+
+input[type=number] {
+  border: none;
+  padding: 7px 20px 7px 5px;
+  margin-right: 0;
+  border-bottom: 1px solid var(--ah-color-10);
+  border-radius: 0;
+  z-index: 1;
+  height: 31px;
+  width: 100%;
+}
+
+.fldErr .errMsg {
+  color: var(--ah-color-8);
+  font-size: 0.75rem;
+  text-align: left;
+  margin-top: 3px;
+}
+
+.alertRibbon {
+  position: relative;
+  padding: 0.25rem 0.5rem;
+  margin-bottom: 1rem;
+  border: 1px solid transparent;
+  border-radius: 0.25rem;
+  font-size: 0.75rem;
+}
+.alertDanger {
+  color: #842029;
+  background-color: #f8d7da;
+  border-color: #f5c2c7;
+}
